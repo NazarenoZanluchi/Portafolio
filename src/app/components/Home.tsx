@@ -74,22 +74,25 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
-          className="mt-6 flex justify-center gap-4 text-gray-700 dark:text-gray-300 underline"
+          className="mt-6 flex justify-center gap-4"
         >
+          {/* Botón Descargar CV */}
           <a
             href="/cv/Nazareno_Zanluchi_CV.pdf"
             download
-            className="inline-flex items-center gap-1 hover:text-gray-900 dark:hover:text-white"
+            className="flex items-center gap-2 px-5 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-md hover:from-blue-700 hover:to-indigo-700 transition-all shadow-md hover:shadow-lg"
           >
             📄 Descargar CV
           </a>
+
+          {/* Botón LinkedIn */}
           <a
             href="https://www.linkedin.com/in/nazareno-zanluchi-82620b2a5/ "
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 hover:text-gray-900 dark:hover:text-white"
+            className="flex items-center gap-2 px-5 py-2 bg-blue-700 text-white rounded-md hover:bg-blue-800 transition-colors shadow-md hover:shadow-lg"
           >
-            <Linkedin className="w-4 h-4" /> LinkedIn
+            <Linkedin className="w-5 h-5" /> LinkedIn
           </a>
         </motion.div>
 
