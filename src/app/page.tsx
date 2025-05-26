@@ -1,7 +1,7 @@
 // App.tsx o PagePrincipal.tsx (dependiendo de tu estructura)
 
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import NavBar from "./components/navBar";
 import Projects from "./components/Project";
@@ -13,11 +13,11 @@ export default function App() {
       <NavBar />
       <main>
         <Home />
-        <About />
         <Services />
         <Projects />
-        <Contact />
+        <About />
       </main>
+      <Footer />
     </div>
   );
 }
