@@ -9,13 +9,12 @@ export default function NavBar() {
 
   // Manejo del modo oscuro
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme === "light") {
-      document.documentElement.classList.remove("dark");
-    } else {
+    if (darkMode) {
       document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
     }
-  }, []);
+  }, [darkMode]);
 
   // Efecto de scroll para transición visual
   useEffect(() => {
