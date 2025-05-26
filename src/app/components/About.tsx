@@ -5,7 +5,10 @@ import { GiSkills } from "react-icons/gi";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 px-6 bg-gray-50 dark:bg-gray-900">
+    <section
+      id="about"
+      className="py-20 px-6 bg-gray-50 dark:bg-gray-900 transition-colors duration-300"
+    >
       <div className="max-w-4xl mx-auto">
         {/* Título */}
         <motion.h2

@@ -8,7 +8,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-100 dark:bg-gray-800 py-6 px-4 text-center text-sm text-gray-700 dark:text-gray-300 border-t border-gray-200 dark:border-gray-700">
+    <footer className="bg-gray-100 dark:bg-gray-800 py-6 px-4 text-center text-sm text-gray-700 dark:text-gray-300 border-t border-gray-200 dark:border-gray-700 transition-colors duration-300">
       <div className="max-w-5xl mx-auto space-y-4">
         {/* Datos personales */}
         <div className="flex flex-col md:flex-row justify-center gap-2 items-center">
